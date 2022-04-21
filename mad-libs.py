@@ -3,7 +3,7 @@
 
 import random
 R = random.randrange(0,8)
-def R(Thing)
+def R(Thing):
 	Thing[r]
 
 adjective1 = ['fat', 'morbidly obese', 'big', 'wide', 'skinny', 'lean', 'bony']
