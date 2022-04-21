@@ -2,7 +2,7 @@
 #Life of Po
 
 import random
-R = random.randrange(0,8)
+r = random.randrange(0,8)
 def R(Thing):
 	Thing[r]
 
