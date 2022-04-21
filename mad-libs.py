@@ -3,8 +3,6 @@
 
 import random
 r = random.randrange(0,8)
-def R(Thing):
-	Thing[r]
 
 adjective1 = ['fat', 'morbidly obese', 'big', 'wide', 'skinny', 'lean', 'bony']
 adjective2 = ['fast', 'slow', 'swift', 'strong', 'weak', 'powerful', 'light', 'nice']
@@ -21,7 +19,7 @@ place4 = ['drug store', 'clinic', 'theater', 'bank', 'cinema', 'night Club', 'ma
 place5 = ['school', 'resturange', 'office', 'home', 'stadium', 'cave', 'college', 'hotel']
 name1 = input("Enter a name for your house:\n")
 name2 = input("Enter a name of a place:\n")
-verb1 = ['kill', 'run', 'kick', 'slap', 'play', 'jump',' bang gang', 'WWE']
+verb1 = ['kill', 'run', 'kick', 'slap', 'play', 'jump','bang gang', 'WWE']
 verb2 = ['began', 'drank', 'went', 'ate', 'bought', 'built', 'drew', 'burnt']
 verb3 = ['began', 'drank', 'went', 'ate', 'bought', 'built', 'drew', 'burnt']
 sequence1 = ['first', 'second', 'third', 'fourth', 'fifth', 'sixth', 'seventh', 'eighth']
@@ -36,33 +34,33 @@ job = ['Attorney', 'Architect', 'Receptionist', 'Waiter', 'Tax collector', 'Lab 
 #kiddee do the one above me ok ^
 #      		   	       |
 #      		  	       |
-adj1 = R(adjective1)
-adj2 = R(adjective2)
-adj3 = R(adjective3)
-adj4 = R(adjective4)
-adj5 = R(adjective5)
-adj6 = R(adjective6)
-shp = R(shape)
-col = R(colour)
-pl1 = R(place1)
-pl2 = R(place2)
-pl3 = R(place3)
-pl4 = R(place4)
-pl5 = R(place5)
-v1 = R(verb1)
-v2 = R(verb2)
-v3 = R(verb3)
-seq1 = R(sequence1)
-seq2 = R(sequence2)
-rshp1 = R(relationship1)
-rshp2 = R(relationship2)
-restrnt = R(restaurant_name)
-wrd_expr = R(word_expression)
-t_expr = R(time_expression)
-jb = R(job)
-thg = R(thing)
+adj1 = adjective1[r]
+adj2 = adjective2[r]
+adj3 = adjective3[r]
+adj4 = adjective4[r]
+adj5 = adjective5[r]
+adj6 = adjective6[r]
+shp = shape[r]
+col = colour[r]
+pl1 = place1[r]
+pl2 = place2[r]
+pl3 = place3[r]
+pl4 = place4[r]
+pl5 = place5[r]
+v1 = verb1[r]
+v2 = verb2[r]
+v3 = verb3[r]
+seq1 = sequence1[r]
+seq2 = sequence2[r]
+rshp1 = relationship1[r]
+rshp2 = relationship2[r]
+restrnt = restaurant_name[r]
+wrd_expr = word_expression[r]
+t_expr = time_expression[r]
+jb = job[r]
+thg = thing[r]
 
-mad_lib = f''' Hi, my name is Po. I’m  {adj1},  {adj2},  {adj3}  and  {adj4} boy. 
+mad_lib = f''' Hi, my name is Po. I am  {adj1},  {adj2},  {adj3}  and  {adj4} boy. 
 I live in the {adj5} {shp} {col} {pl1} named {name1}. 
 My father is the {jb} who {v1} a {thg} to {name2} {pl2}.
 Today is my {seq1} {t_expr} to go to {pl3} since I {v2} the old {pl4}. 
