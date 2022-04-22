@@ -2,7 +2,6 @@
 #Life of Po
 
 import random
-r = random.randrange(0,8)
 
 adjective1 = ['fat', 'morbidly obese', 'big', 'wide', 'skinny', 'lean', 'bony']
 adjective2 = ['fast', 'slow', 'swift', 'strong', 'weak', 'powerful', 'light', 'nice']
@@ -34,31 +33,31 @@ job = ['Attorney', 'Architect', 'Receptionist', 'Waiter', 'Tax collector', 'Lab 
 #kiddee do the one above me ok ^
 #      		   	       |
 #      		  	       |
-adj1 = adjective1[r]
-adj2 = adjective2[r]
-adj3 = adjective3[r]
-adj4 = adjective4[r]
-adj5 = adjective5[r]
-adj6 = adjective6[r]
-shp = shape[r]
-col = colour[r]
-pl1 = place1[r]
-pl2 = place2[r]
-pl3 = place3[r]
-pl4 = place4[r]
-pl5 = place5[r]
-v1 = verb1[r]
-v2 = verb2[r]
-v3 = verb3[r]
-seq1 = sequence1[r]
-seq2 = sequence2[r]
-rshp1 = relationship1[r]
-rshp2 = relationship2[r]
-restrnt = restaurant_name[r]
-wrd_expr = word_expression[r]
-t_expr = time_expression[r]
-jb = job[r]
-thg = thing[r]
+adj1 = random.choice(adjective1)
+adj2 = random.choice(adjective2)
+adj3 = random.choice(adjective3)
+adj4 = random.choice(adjective4)
+adj5 = random.choice(adjective5)
+adj6 = random.choice(adjective6)
+shp = random.choice(shape)
+col = random.choice(colour)
+pl1 = random.choice(place1)
+pl2 = random.choice(place2)
+pl3 = random.choice(place3)
+pl4 = random.choice(place4)
+pl5 = random.choice(place5)
+v1 = random.choice(verb1)
+v2 = random.choice(verb2)
+v3 = random.choice(verb3)
+seq1 = random.choice(sequence1)
+seq2 = random.choice(sequence2)
+rshp1 = random.choice(relationship1)
+rshp2 = random.choice(relationship2)
+restrnt = random.choice(restaurant_name)
+wrd_expr = random.choice(word_expression)
+t_expr = random.choice(time_expression)
+jb = random.choice(job)
+thg = random.choice(thing)
 
 mad_lib = f''' Hi, my name is Po. I am  {adj1},  {adj2},  {adj3}  and  {adj4} boy. 
 I live in the {adj5} {shp} {col} {pl1} named {name1}. 
