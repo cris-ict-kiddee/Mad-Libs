@@ -1,7 +1,8 @@
 #Team members: Kiddee, Kent
 #Life of Po
 
-
+print('----- Wellcome to "Life of Po" story-----')
+print('------ Head of uStory by Kiddee ----- Head of Code by Kent ------')
 
 import random
 
@@ -32,41 +33,10 @@ restaurant_name = ['big', 'small', 'smelly', 'trashy', 'sussy', 'bright', 'lovel
 word_expression = ['Goodluck', 'Godspeed', 'Bon voyage', 'Goodbye', 'Adios', 'Adieu', 'Cheerio', 'Farewell']
 time_expression = ['day', 'week', 'year', '2 weeks', '3 weeks', '3 days', '4 years', '6 years']
 job = ['Attorney', 'Architect', 'Receptionist', 'Waiter', 'Tax collector', 'Lab assistant', 'Software developer', 'Doctor']
-<<<<<<< HEAD
 thing = ['fish', 'bear', 'bottle', 'apple', 'banana', 'cow', 'jacket', 'plate']
 
 
 #Random
-adj1 = adjective1[r]
-adj2 = adjective2[r]
-adj3 = adjective3[r]
-adj4 = adjective4[r]
-adj5 = adjective5[r]
-adj6 = adjective6[r]
-shp = shape[r]
-col = colour[r]
-pl1 = place1[r]
-pl2 = place2[r]
-pl3 = place3[r]
-pl4 = place4[r]
-pl5 = place5[r]
-v1 = verb1[r]
-v2 = verb2[r]
-v3 = verb3[r]
-seq1 = sequence1[r]
-seq2 = sequence2[r]
-rshp1 = relationship1[r]
-rshp2 = relationship2[r]
-restrnt = restaurant_name[r]
-wrd_expr = word_expression[r]
-t_expr = time_expression[r]
-jb = job[r]
-thg = thing[r]
-=======
-#thing =
-#kiddee do the one above me ok ^
-#      		   	       |
-#      		  	       |
 adj1 = random.choice(adjective1)
 adj2 = random.choice(adjective2)
 adj3 = random.choice(adjective3)
@@ -92,8 +62,8 @@ wrd_expr = random.choice(word_expression)
 t_expr = random.choice(time_expression)
 jb = random.choice(job)
 thg = random.choice(thing)
->>>>>>> 0b047486d2c1522f37c7cb6c47e1207fe31a2482
 
+#Mad lib outcome
 mad_lib = f''' Hi, my name is Po. I am  {adj1},  {adj2},  {adj3}  and  {adj4} boy. 
 I live in the {adj5} {shp} {col} {pl1} named {name1}. 
 My father is the {jb} who {v1} a {thg} to {name2} {pl2}.
