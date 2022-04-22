@@ -1,9 +1,12 @@
 #Team members: Kiddee, Kent
 #Life of Po
 
+
+
 import random
 r = random.randrange(0,8)
 
+#word list
 adjective1 = ['fat', 'morbidly obese', 'big', 'wide', 'skinny', 'lean', 'bony']
 adjective2 = ['fast', 'slow', 'swift', 'strong', 'weak', 'powerful', 'light', 'nice']
 adjective3 = ['slimy', 'loud', 'round', 'furry', 'evil', 'idiotic', 'bald', 'immense']
@@ -30,10 +33,10 @@ restaurant_name = ['big', 'small', 'smelly', 'trashy', 'sussy', 'bright', 'lovel
 word_expression = ['Goodluck', 'Godspeed', 'Bon voyage', 'Goodbye', 'Adios', 'Adieu', 'Cheerio', 'Farewell']
 time_expression = ['day', 'week', 'year', '2 weeks', '3 weeks', '3 days', '4 years', '6 years']
 job = ['Attorney', 'Architect', 'Receptionist', 'Waiter', 'Tax collector', 'Lab assistant', 'Software developer', 'Doctor']
-#thing =
-#kiddee do the one above me ok ^
-#      		   	       |
-#      		  	       |
+thing = ['fish', 'bear', 'bottle', 'apple', 'banana', 'cow', 'jacket', 'plate']
+
+
+#Random
 adj1 = adjective1[r]
 adj2 = adjective2[r]
 adj3 = adjective3[r]
