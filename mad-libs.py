@@ -70,17 +70,20 @@ jb = random.choice(job)
 thg = random.choice(thing)
 
 #Mad lib outcome
-mad_lib = f''' Hi, my name is Po. I am  {adj1},  {adj2},  {adj3}  and  {adj4} boy. 
-I live in the {adj5} {shp} {col} {pl1} named {nm1}. 
-My father is the {jb} who {v1} a {thg} to {nm2}'s {pl2}.
-Today is my {seq1} {t_expr} to go to {pl3} since I {v2} the old {pl4}. 
-I {v3} with Katty, my {adj6} {rshp1} who said to me “Don’t be worried about your smartphone and TV spying on you. Your vacuum cleaner has been gathering dirt on you for years”. 
-Finally this is my {seq2} dinner at {restrnt} with my {rshp2} after that I have to go to {pl5}.
+mad_lib = f''' Hi, my name is Po. I am {adj1}, {adj2}, {adj3} 
+and {adj4} boy. I live in the {adj5} {shp} {col} {pl1} named 
+{nm1}. My father is the {jb} who {v1} a {thg} to {nm2}'s {pl2}.
+Today is my {seq1} {t_expr} to go to {pl3} since I {v2} the old 
+{pl4}. I {v3} with Katty, my {adj6} {rshp1} who said to me 
+“Don’t be worried about your smartphone and TV spying on you. 
+Your vacuum cleaner has been gathering dirt on you for years”. 
+Finally this is my {seq2} dinner at {restrnt} with my {rshp2} 
+after that I have to go to {pl5}.
 {wrd_expr}, Po!!! '''
 
 #print the story session
 
 import cowsay
 
-cowsay.milk (mad_lib)
+cowsay.milk(mad_lib)
 
