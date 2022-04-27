@@ -1,8 +1,20 @@
 #Team members: Kiddee, Kent
 #Life of Po
 
+#Introduction part
 print('----- Wellcome to "Life of Po" story-----')
-print('------ Head of uStory by Kiddee ----- Head of Code by Kent ------')
+print('------ Head of Story by Kiddee ----- Head of Code by Kent ------\n')
+
+#Enter name that the reader want into the story
+print('''Discription:    
+This session will let you participate with us by type the name that you want to be in the story. \n''')
+
+name1 = input("Enter a name for your house that you want to be in the story:\n")
+
+name2 = input("Enter a name of a name that you want to be in the story:\n")
+
+#Enter to begin the story
+print('And now, please enjoy the story!!!\n')
 
 import random
 
@@ -20,8 +32,6 @@ place2 = ['school', 'restaurant', 'office', 'home', 'stadium', 'cave', 'college'
 place3 = ['school', 'restaurant', 'office', 'home', 'stadium', 'cave', 'college', 'hotel'] 
 place4 = ['drug store', 'clinic', 'theater', 'bank', 'cinema', 'night Club', 'market', 'night market']
 place5 = ['school', 'resturange', 'office', 'home', 'stadium', 'cave', 'college', 'hotel']
-name1 = input("Enter a name for your house:\n")
-name2 = input("Enter a name of a place:\n")
 verb1 = ['kill', 'run', 'kick', 'slap', 'play', 'jump','bang gang', 'WWE']
 verb2 = ['began', 'drank', 'went', 'ate', 'bought', 'built', 'drew', 'burnt']
 verb3 = ['began', 'drank', 'went', 'ate', 'bought', 'built', 'drew', 'burnt']
@@ -66,11 +76,15 @@ thg = random.choice(thing)
 #Mad lib outcome
 mad_lib = f''' Hi, my name is Po. I am  {adj1},  {adj2},  {adj3}  and  {adj4} boy. 
 I live in the {adj5} {shp} {col} {pl1} named {name1}. 
-My father is the {jb} who {v1} a {thg} to {name2} {pl2}.
+My father is the {jb} who {v1} a {thg} to {name2}'s {pl2}.
 Today is my {seq1} {t_expr} to go to {pl3} since I {v2} the old {pl4}. 
-I {v3} with Katty, my {adj6} {rshp1} who said to me “Don’t be worried about your smartphone and TV spying on you. 
-Your vacuum cleaner has been gathering dirt on you for years”. 
+I {v3} with Katty, my {adj6} {rshp1} who said to me “Don’t be worried about your smartphone and TV spying on you. Your vacuum cleaner has been gathering dirt on you for years”. 
 Finally this is my {seq2} dinner at {restrnt} with my {rshp2} after that I have to go to {pl5}.
 {wrd_expr}, Po!!! '''
 
-print(mad_lib)
+#print the story session
+
+import cowsay
+
+cowsay.dragon (mad_lib)
+
